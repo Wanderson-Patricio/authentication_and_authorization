@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-container{
+  background-color: rgba(235, 229, 229, 0.952);
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.box-shadow {
+    border: 2px solid #252525;
+    box-shadow: 3px 3px #252525;
+}
+
+.center {
+  text-align: center;
+}
+
+.btn {
+  background-color: #11053f;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
